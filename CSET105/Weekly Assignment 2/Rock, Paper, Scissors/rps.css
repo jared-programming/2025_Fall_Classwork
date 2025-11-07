@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+html {
+    padding: 1rem;
+    text-align: center;
+}
+header, h3, button {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+button {
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px black;
+}
+button:hover {
+    transform: scale(1.1);
+}
+body {
+    margin: 0 auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.score, .ties {
+    font-weight: bold;
+}

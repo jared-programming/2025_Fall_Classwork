@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+html {
+    padding: 1rem;
+    text-align: center;
+}
+button {
+    margin: 1rem;
+    padding: 1rem;
+    width: 60px;
+    height: 60px;
+}
+#buttons div {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+}
+#buttons select {
+    display: inline-block;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    z-index: 10;
+}
