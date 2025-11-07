@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lecture 8 Notes
+        </title>
+    </head>
+    <body>
+        <h1>
+            My home page
+        </h1>
+        <p>
+            Hello, I am Jared and this is my home page.
+        </p>
+        <p>
+            I also didn't write a book! Don't go read it 
+            <a href="">
+                here
+            </a>
+        </p>
+        <p>
+            A good doggo: 
+        </p>
+        <p>
+            <img id="doggo" src="/resources/doggo.png" alt="DOGGO">
+        </p>
+        <p>
+            <button onclick="replaceImages()">Replace</button>
+        </p>
+        <p>
+            One
+        </p>
+        <p>
+            Two
+        </p>
+        <p>
+            Three
+        </p>
+        <!-- <p>
+            <img src="cat.png" alt="CAT"> in the <img src="hat" alt="HAT">.
+        </p> -->
+        <p id="para" style="color: purple">
+            Purple? text!
+        </p>
+        <p>
+            And if you go chasing 
+            <span class="animal">rabbits</span>
+        </p>
+        <p>
+            And you know you're going to fall
+        </p>
+        <p>
+            Tell 'em a <span class="character">hookah-smoking 
+            <span class="animal">caterpillar</span></span>
+        </p>
+        <p>
+            Has given you the call
+        </p>
+        <a href="http://www.google.com">
+            Google!
+        </a>
+        <br>
+        <button onclick="sayHello()">
+            Click me!
+        </button>
+        <div id="div"></div>
+        <button id = "test" onclick = "whoClickedMe(this)">Click ME!</button>
+        <br>
+        <label for = "cars">
+            Choose a car:
+        </label>
+        <select name = "cars" id = "cars" onchange = "whoClickedMe(this)">
+            <option value = "Choose a car">options</option>
+            <option value = "volvo">Volvo</option>
+            <option value = "saab">Saab</option>
+            <option value = "mercedes">Mercedes</option>
+            <option value = "audi">Audi</option>
+        </select>
+        <br>
+        <button id="test" onclick = "getRndInteger(1, 10)">
+            Get Random Number 1
+        </button>
+        <div id="div1"></div>
+        <button id="test" onclick = "getRndInteger1(1, 100)">
+            Get Random Number 2
+        </button>
+        <div id="div2"></div>
+        <script src="home.js"></script>
+    </body>
+</html>
