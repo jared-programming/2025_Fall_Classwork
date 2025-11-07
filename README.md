@@ -1,2 +1,2 @@
 # 2025_Fall_Classwork - Welcome! 
-All of my 2025, Fall Classwork for Computer Software Engineering
+All of my Classwork for Computer Software Engineering, Fall 2025 Semester
